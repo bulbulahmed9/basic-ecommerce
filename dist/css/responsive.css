@@ -1,0 +1,98 @@
+@media(max-width: 768px){
+    .navbar{
+        padding: 0;
+        margin: 0;
+    }
+    .header .navbar .nav-item .nav-link{
+        padding: 20px;
+    }
+    .header .nav-icon{
+        padding: 16px;
+    }
+}
+@media(max-width: 767px){
+    .header .top .search , .header .top .login{
+        padding: 8px;
+    }
+    .header .top input[type=text]{
+        width: 100px;
+    }
+    .header .nav-icon-box{
+        display: flex !important;
+        justify-content: flex-start !important;
+        transform: translateX(-10px);
+    }
+    .header .nav-icon{
+        padding: 5px 10px;
+        margin: 10px;
+    }
+    .navbar-toggler{
+        margin-top: 10px;
+        color: #dfdbd4;
+        margin-top: 2px;
+    }
+    .navbar-toggler-icon{
+        color: #dfdbd4;
+        padding-top: 5px;
+        cursor: pointer;
+    }
+    .header .navbar .nav-item .nav-link{
+        border-right: none;
+        border-left: none;
+        padding: 5px 0;
+    }
+    .banner .price, .banner .text , .banner .icon, .banner h1{
+        margin: 0 20px;
+    }
+    .new .content .sale, .best .content .sale , .new .content .price, .best .content .price{
+        padding: 12px 8px;
+    }
+    .new .content .price, .best .content .price{
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .footer .f-center .content input[type="text"] , .footer .f-center .content button{
+        padding: 9px 8px;
+    }
+}
+@media(max-width: 576px){
+    .addon .container .content {
+        padding: 10px 14px;
+        background: #dfdbd4;
+    }
+}
+@media(max-width: 575px){
+    .header .top .box{
+        display: flex !important;
+        justify-content: flex-start !important;
+        margin-bottom: 5px;
+    }
+    .m-have .content img , .new .content img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .new .heading .col-md-4 , .best .heading .col-md-4{
+        text-align: left !important;
+    }
+    .new .heading p , .best .heading p{
+        margin-bottom: 15px;
+    }
+    .new .content img , .best .content img{
+        width: 100%;
+    }
+    .new .content .text , .best .content .text{
+        margin-bottom: 20px;
+    }
+    .new .content , .best .content{
+        margin-bottom: 40px;
+    }
+    .new{
+        padding-bottom: 0px;
+    }
+    .footer .f-center .content , .footer .f-bottom .content{
+        text-align: left !important;
+        margin-bottom: 10px;
+    }
+}

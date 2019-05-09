@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Basic E-Commerce Site</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<link rel="stylesheet" href="dist/css/responsive.css">
+</head>
+<body ondragstart="return false">
+	<header id="header" class="header">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<a href="#" class="logo">fooseshoes</a>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="box d-flex justify-content-end">
+							<form id="content">
+								<input type="text" name="input" class="input" id="search-input" placeholder="Search">
+								<button type="reset" class="search" id="search-btn"><i class="fas fa-search"></i></button>
+							</form>
+							<a href="#" class="login">LOGIN or REGISTER</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Header Top Section Ended -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-sm-12">
+					<nav class="navbar navbar-expand-md">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon">
+							<i class="fas fa-bars"></i>
+						</span>
+					</button>
+					
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mr-auto">
+								<li class="nav-item">
+									<a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Products</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">About</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Pages</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Blog</a>
+								</li>
+								<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+				<div class="col-md-4 col-sm-12 nav-icon-box d-flex align-items-center justify-content-end">
+					<div class="nav-icon">
+						<i class="far fa-star"></i>
+						<span>30</span>
+					</div>
+					<div class="nav-icon">
+						<i class="fas fa-shopping-cart"></i>
+						<span>00</span>	
+					</div>
+				</div>
+			</div>
+		</div>		
+		<!-- Header Navbar Section Ended -->
+		<div class="banner">
+			<div class="row">
+				<div class="col-md-6 col-sm-12"></div>
+				<div class="col-md-6 col-sm-12">
+					<p class="price">$145.99</p>
+					<h1>Pink Shoes <br> 2013 Collection</h1>
+					<p class="text">Nunc non fermentum nunc. Sed ut ante <br>eget leo tempor consequat sit amet eu orci. <br>Donec dignissim dolor eget..</p>
+					<div class="icon">
+						<a href="#"><i class="far fa-eye"></i></a>
+						<a href="#"><i class="far fa-star"></i></a>
+						<a href="#"><i class="fas fa-share-square"></i></a>
+						<a href="#"><i class="fas fa-shopping-cart"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- Header Ended -->
+
+<section id="item" class="item js--item">
+	<div class="container">
+		<div class="bar-line">
+			<div class="bar bar-1"></div>
+			<div class="bar bar-2"></div>
+			<div class="bar bar-3"></div>
+			<div class="bar bar-4"></div>
+			<div class="bar bar-5"></div>
+			<div class="bar bar-6"></div>
+		</div>
+		<div class="item-box">
+			<div class="item-1">
+				<p>Pink Shoes</p>
+				<span>Lorem, ipsum dolor.</span>
+			</div>
+			<div class="item-2">
+				<p>Pink Shoes</p>
+				<span>Lorem, ipsum dolor.</span>
+			</div>
+			<div class="item-3">
+				<p>Pink Shoes</p>
+				<span>Lorem, ipsum dolor.</span>
+			</div>
+			<div class="item-4">
+				<p>Pink Shoes</p>
+				<span>Lorem, ipsum dolor.</span>
+			</div>
+			<div class="item-5">
+				<p>Pink Shoes</p>
+				<span>Lorem, ipsum dolor.</span>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- item ended -->
+<section class="m-have" id="m-have">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="content">
+					<img class="img-fluid" src="dist/images/must-have-item/item-1.jpeg" alt="">
+					<p>on sale</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="content">
+					<img class="img-fluid" src="dist/images/must-have-item/item-2.jpeg" alt="">
+					<p>special offers</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="content">
+					<img class="img-fluid" src="dist/images/must-have-item/item-3.jpeg" alt="">
+					<p>must have</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- must have ended -->
+<section id="new" class="new">
+	<div class="container">
+		<div class="heading">
+			<div class="row">
+				<div class="col-md-8 col-sm-8 col-xs-12">
+					<p>New arrivals on fooseshoes</p>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 text-right">
+					<a href="#">Show All</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="content">
+					<img src="dist/images/new/item-1.jpeg" class="img-fluid" alt="">
+					<p class="price">$145.00</p>
+					<p class="text">Lorem, ipsum</p>
+					<p class="sale">ON SALE</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="content">
+					<img src="dist/images/new/item-1.jpeg" class="img-fluid" alt="">
+					<p class="price">$145.00</p>
+					<p class="text">Lorem, ipsum</p>
+					<p class="sale">ON SALE</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="content">
+					<img src="dist/images/new/item-1.jpeg" class="img-fluid" alt="">
+					<p class="price">$145.00</p>
+					<p class="text">Lorem, ipsum</p>
+					<p class="sale">ON SALE</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- new section ended -->
+<section id="best" class="best">
+	<div class="container">
+		<div class="heading">
+			<div class="row">
+				<div class="col-md-8 col-sm-8 col-xs-12">
+					<p>Best sellers of the month</p>
+				</div>
+				<div class="col-md-4 col-sm-4 col-xs-12 text-right">
+					<a href="#">Show All</a>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="content">
+					<img src="dist/images/best/item-1.jpeg" class="img-fluid" alt="">
+					<p class="price">$145.00</p>
+					<p class="text">Lorem, ipsum</p>
+					<p class="sale">ON SALE</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="content">
+					<img src="dist/images/best/item-1.jpeg" class="img-fluid" alt="">
+					<p class="price">$145.00</p>
+					<p class="text">Lorem, ipsum</p>
+					<p class="sale">ON SALE</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12">
+				<div class="content">
+					<img src="dist/images/best/item-1.jpeg" class="img-fluid" alt="">
+					<p class="price">$145.00</p>
+					<p class="text">Lorem, ipsum</p>
+					<p class="sale out-of-stock">OUT OF STOCK</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- best section ended -->
+<section id="addon" class="addon">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="content">
+					<h3>Free Shipping</h3>
+					<p>Lorem ipsum dolor sit amet, consecteturgtyu adipisicing elit. hgytkiu Accusamus incidunt doloremque, officia sed ullam totam gtyuihg.</p>
+					<span><i>- John Doe - </i></span>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="content">
+					<h3>testimonial</h3>
+					<p>Lorem ipsum dolor sit amet, consecteturgtyu adipisicing elit. hgytkiu Accusamus incidunt doloremque, officia sed ullam totam gtyuihg.</p>
+					<span><i>- John Doe - </i></span>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="content blog-content">
+					<h3>Blog News</h3>
+					<div class="d-flex align-items-center">
+						<div class="date">
+							<p>APR <br> 01</p>
+						</div>
+						<div class="text">
+							<h4>Lorem ipsum dolor sit amet.</h4>
+							<p>Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+						</div>
+					</div>
+					<div class="d-flex align-items-center">
+						<div class="date">
+							<p>APR <br> 01</p>
+						</div>
+						<div class="text">
+							<h4>Lorem ipsum dolor sit amet.</h4>
+							<p>Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- addon ended -->
+
+	<footer id="footer" class="footer">
+		<div class="f-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="content">
+							<h3>Text Widget</h3>
+							<p><i>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</i></p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="content">
+							<h3>Twitter Widget</h3>
+							<p><span>@ericafustero</span> Why thank you. Your work looks awesome by the way! <span>@treemelody</span></p>
+							<small>19 days ago</small>
+							<h3>Twitter Widget</h3>
+							<p><span>@ericafustero</span> Why thank you. Your work looks awesome by the way! <span>@treemelody</span></p>
+							<small>21 days ago</small>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="content">
+							<h3>Flicker Photos</h3>
+							<img class="img-fluid" src="dist/images/footer/flicker.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="content">
+							<form action="">
+								<input type="text" placeholder="Enter email for newslater">
+								<button type="submit">
+									<i class="fas fa-arrow-right"></i>
+								</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+						<div class="content text-right">
+							<a href="#">
+								<i class="fab fa-facebook-f"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+							<a href="#">
+								<i class="fab fa-linkedin-in"></i>
+							</a>
+							<a href="#">
+								<i class="fas fa-basketball-ball"></i>
+							</a>
+							<a href="#">
+								<i class="fas fa-basketball-ball"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="f-bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 col-sm-6">
+						<div class="content">
+							<p>Lorem ipsum dolor sit amet.</p>
+							<p>Design By Bulbul Ahmed</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6">
+						<div class="content text-right">
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="dist/js/jquery-3.3.1.min.js"></script>
+	<script src="dist/js/popper.min.js"></script>
+	<script src="dist/js/bootstrap.min.js"></script>
+	<script src="dist/js/jquery.waypoints.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// search bar toogle
+			$('.search').click(function(){
+				$('.input').toggle('slow');
+			});
+
+
+			// sticky navbar
+			$('.js--item').waypoint(function(direction){
+        if(direction == 'down'){
+            $('nav').addClass('sticky');
+        }
+        else{
+            $('nav').removeClass('sticky');
+        }
+    });
+		});
+	</script>
+</body>
+</html>
