@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,700');
 $black: #242424;
 $green: #57c5a0;
+html{
+	scroll-behavior: smooth;
+}
 *{
 	margin: 0;
 	padding: 0;
